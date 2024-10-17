@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Brand Styles */
+.navbar-brand {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center the logo vertically */
+    width: 20%; /* Set the width of the brand */
+    padding-left: 15px; /* Optional: Add padding for spacing */
+    font-weight: bold;
+    font-size: 24px;
+
+}
+
+/* Logo Image Styles */
+.logo-img {
+    width: 50%; /* Make the logo take up 100% of the navbar-brand's width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* About Us and Skills Sections */
+.about-us, .skills {
+    padding: 20px;
+}
+
+/* Profile Image Styles */
+.profile img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    margin-bottom: 10px;
+}
+
+/* Profile Heading Styles */
+.profile h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+/* Progress Bar Styles */
+.progress-bar {
+    background-color: #007bff; /* Bootstrap primary color */
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 50px;
+}
