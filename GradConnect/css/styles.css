@@ -15,7 +15,7 @@ body {
 
 /* Logo Image Styles */
 .logo-img {
-    width: 50%; /* Make the logo take up 100% of the navbar-brand's width */
+    width: 80%; /* Make the logo take up 100% of the navbar-brand's width */
     height: auto; /* Maintain aspect ratio */
 }
 
